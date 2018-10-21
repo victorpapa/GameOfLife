@@ -139,7 +139,7 @@ public class PatternStore{
         Pattern result = mMapName.get(name);
 
         if (result == null)
-            throw new PatternNotFound("Not found m8");
+            throw new PatternNotFound("No such name was found.");
 
         return mMapName.get(name);
     }
